@@ -1,0 +1,9 @@
+tagA:
+  - folderA/*
+
+tagB:
+  - folderB/**
+
+documentation:
+  - README.md
+  - ./*.md
