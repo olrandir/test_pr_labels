@@ -1,8 +1,8 @@
-tagA:
+tagA🇬🇧:
   - changed-files:
     - any-glob-to-any-file: 'folderA/**'
 
-tagB:
+tagB🇧🇷:
   - changed-files:
     - any-glob-to-any-file: 'folderB/**'
 
