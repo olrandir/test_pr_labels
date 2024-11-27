@@ -1,10 +1,10 @@
 tagA:
   - changed-files:
-    - any-glob-to-any-file: './folderA/*'
+    - any-glob-to-any-file: 'folderA/**'
 
 tagB:
   - changed-files:
-    - any-glob-to-any-file: './folderB/*'
+    - any-glob-to-any-file: 'folderB/**'
 
 Documentation:
 - changed-files:
