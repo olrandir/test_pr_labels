@@ -1,9 +1,15 @@
 tagA:
-  - folderA/*
+  - changed-files:
+    - any-glob-to-any-file: './folderA/*'
 
 tagB:
-  - folderB/**
+  - changed-files:
+    - any-glob-to-any-file: './folderB/*'
 
-documentation:
-  - README.md
-  - ./*.md
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: '**/*.md'
+
+CI:
+  - changed-files:
+    - any-glob-to-any-file: '**/*.yml'
